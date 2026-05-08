@@ -1,0 +1,40 @@
+{
+  "stats": {
+    "plays": 128,
+    "characters": 342,
+    "roleTypes": 4,
+    "singingStyles": 12
+  },
+  "intro": {
+    "researchObject": "以湖北汉剧代表性剧目为核心样本，考察剧本文本、角色行当、唱腔流派与情节单元的结构化语义，支撑「剧目—人物—情节—声腔」多维关联分析。",
+    "dataSource": "整合馆藏剧本数字化文本、学者整理本与公开戏曲文献中的剧目提要；底层数据以本地 JSON / 图谱三元组形式维护，便于离线校验与版本迭代。",
+    "researchGoals": "构建汉剧剧目领域知识图谱，揭示叙事结构模式、情感走向与行当—唱腔协同规律；面向数字人文展览与戏曲史料研究的可持续可视化框架。",
+    "technicalMethods": "采用本体建模与知识图谱存储思路，前端使用 React + Vite + Apache ECharts 实现交互叙事与多维图表；样式遵循深色展览语境下的可读性与无障碍对比度。"
+  },
+  "themes": [
+    {
+      "id": "repertoire",
+      "title": "剧目整体概览",
+      "description": "剧目目录、版本谱系与场次结构的宏观鸟瞰。",
+      "hash": "theme-repertoire"
+    },
+    {
+      "id": "plot-emotion",
+      "title": "情节与情感",
+      "description": "情节单元标注、冲突链条与情感曲线可视化。",
+      "hash": "theme-plot"
+    },
+    {
+      "id": "characters",
+      "title": "角色人物",
+      "description": "人物实体、关系网络与行当属性的图谱探索。",
+      "hash": "theme-characters"
+    },
+    {
+      "id": "performance",
+      "title": "唱腔与表演",
+      "description": "西皮、二黄等声腔标注与舞台指示的结构化呈现。",
+      "hash": "theme-performance"
+    }
+  ]
+}
