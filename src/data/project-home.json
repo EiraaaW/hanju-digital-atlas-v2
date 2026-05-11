@@ -22,7 +22,7 @@
       "id": "plot-emotion",
       "title": "情节与情感",
       "description": "情节单元标注、冲突链条与情感曲线可视化。",
-      "hash": "theme-plot"
+      "hash": "theme-plot-content"
     },
     {
       "id": "characters",

@@ -25,7 +25,11 @@ export function ThemeNavigation() {
 
       <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4 lg:gap-5">
         {themes.map((t, i) => (
-          <li key={t.id} id={t.hash} className="scroll-mt-28">
+          <li
+            key={t.id}
+            {...(t.hash !== 'theme-plot-content' ? { id: t.hash } : {})}
+            className="scroll-mt-28"
+          >
             <Link
               to={{ pathname: '/', hash: t.hash }}
               className="group flex h-full flex-col rounded-2xl border border-white/[0.07] bg-gradient-to-b from-[#141018]/95 to-black/90 p-6 shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] transition hover:border-gold-500/35 hover:shadow-[0_20px_50px_rgba(0,0,0,0.45)]"

@@ -1,0 +1,732 @@
+{
+  "卧薪尝胆": {
+    "meta": {
+      "era": "春秋时期",
+      "location": "会稽；吴国；越国",
+      "hangdang": "一末；三生；四旦；五丑；六外；七小；八贴；九夫；十杂",
+      "shengqiang": "二黄；西皮",
+      "banshi": "导板；慢板；二流；摇板；散板",
+      "isZhezixi": "否",
+      "quanben": "吴越争雄"
+    },
+    "segments": [
+      {
+        "name": "吴王兴兵",
+        "emotion": 6,
+        "rhythm": "中",
+        "ratio": 3,
+        "field": "第一场",
+        "summary": "吴王夫差为报父仇，兴兵伐越，众将听令出征"
+      },
+      {
+        "name": "越王拒谏",
+        "emotion": 5,
+        "rhythm": "中",
+        "ratio": 3,
+        "field": "第二场",
+        "summary": "越王勾践不听范蠡文种坚守之谏，执意出兵迎战吴军"
+      },
+      {
+        "name": "会稽战败",
+        "emotion": 7,
+        "rhythm": "快",
+        "ratio": 5,
+        "field": "第三至七场",
+        "summary": "吴越交战，越军大败，退守会稽城"
+      },
+      {
+        "name": "求和定计",
+        "emotion": 6,
+        "rhythm": "中",
+        "ratio": 5,
+        "field": "第八至九场",
+        "summary": "勾践悔不听谏言，文种献计贿赂伯嚭求和，勾践回宫挑选美女"
+      },
+      {
+        "name": "贿赂伯嚭",
+        "emotion": 5,
+        "rhythm": "中",
+        "ratio": 5,
+        "field": "第十场",
+        "summary": "文种以金珠美女贿赂伯嚭，伯嚭答应劝吴王准和"
+      },
+      {
+        "name": "吴王准和",
+        "emotion": 5,
+        "rhythm": "中",
+        "ratio": 4,
+        "field": "第十一场",
+        "summary": "伯嚭劝夫差准和，夫差命勾践君臣五月中旬到吴国投诚"
+      },
+      {
+        "name": "忍辱入吴",
+        "emotion": 8,
+        "rhythm": "慢",
+        "ratio": 5,
+        "field": "第十二至十四场",
+        "summary": "勾践决定忍辱前往吴国，范蠡随行，被迫换上罪犯衣装"
+      },
+      {
+        "name": "君臣辞别",
+        "emotion": 9,
+        "rhythm": "慢",
+        "ratio": 8,
+        "field": "第十三场",
+        "summary": "勾践君臣在固陵道辞别，各表忠心与复仇之志"
+      },
+      {
+        "name": "朝见吴王",
+        "emotion": 8,
+        "rhythm": "中",
+        "ratio": 6,
+        "field": "第十五至十六场",
+        "summary": "勾践君臣以罪犯身份朝见夫差，伍员主杀，伯嚭主赦，夫差饶恕并命其看皇陵喂马"
+      },
+      {
+        "name": "受辱吴国",
+        "emotion": 9,
+        "rhythm": "中",
+        "ratio": 8,
+        "field": "第十七场",
+        "summary": "越妃与勾践在吴国受尽屈辱，包坏事调戏越妃，被勾践忍辱化解"
+      },
+      {
+        "name": "伍员谏阻",
+        "emotion": 7,
+        "rhythm": "中",
+        "ratio": 4,
+        "field": "第十八场",
+        "summary": "夫差欲放勾践，伍员力谏不可，伯嚭反谏，夫差犹豫不决"
+      },
+      {
+        "name": "尝粪救主",
+        "emotion": 10,
+        "rhythm": "快",
+        "ratio": 8,
+        "field": "第十九至二十场",
+        "summary": "范蠡献尝粪之计，勾践忍辱尝粪，夫差感动，决定放勾践回国"
+      },
+      {
+        "name": "伍员死谏",
+        "emotion": 10,
+        "rhythm": "快",
+        "ratio": 4,
+        "field": "第二十场后半",
+        "summary": "伍员力谏夫差杀勾践不成，反被赐死，自刎前预言越必伐吴"
+      },
+      {
+        "name": "回国励精",
+        "emotion": 8,
+        "rhythm": "慢",
+        "ratio": 8,
+        "field": "第二十一至二十二场",
+        "summary": "勾践回国后卧薪尝胆，励精图治，与文种范蠡共商复仇大计"
+      },
+      {
+        "name": "访得西施",
+        "emotion": 5,
+        "rhythm": "中",
+        "ratio": 8,
+        "field": "第二十三至二十六场",
+        "summary": "范蠡访得美女西施和郑旦，二人愿牺牲救国，随范蠡入宫"
+      },
+      {
+        "name": "献美吴王",
+        "emotion": 8,
+        "rhythm": "中",
+        "ratio": 6,
+        "field": "第二十七至二十八场",
+        "summary": "勾践将西施郑旦献给夫差，伍员死谏被赐死，夫差沉迷美色"
+      },
+      {
+        "name": "民众助国",
+        "emotion": 6,
+        "rhythm": "中",
+        "ratio": 3,
+        "field": "第二十九场",
+        "summary": "越国民众自发组织捐助政府，勾践暗访民情，深受感动"
+      },
+      {
+        "name": "兴兵雪耻",
+        "emotion": 9,
+        "rhythm": "快",
+        "ratio": 7,
+        "field": "第三十至三十五场",
+        "summary": "越国兴兵伐吴，大败吴军，夫差自杀，勾践灭吴雪耻"
+      }
+    ]
+  },
+  "哭秦庭": {
+    "meta": {
+      "era": "春秋时期",
+      "location": "秦国",
+      "hangdang": "三生；七小；十杂",
+      "shengqiang": "二黄；西皮",
+      "banshi": "摇板；垛子；一字板；慢二黄；二流；导板；拿眼；回龙；反二黄；反二流；滚板；慢西皮",
+      "isZhezixi": "是",
+      "quanben": "伍子胥系列"
+    },
+    "segments": [
+      {
+        "name": "求救遭拒",
+        "emotion": 7,
+        "rhythm": "中",
+        "ratio": 25,
+        "field": "第一场",
+        "summary": "申包胥上殿哭诉楚国惨状，恳求秦哀公发兵，秦哀公以兵微将寡为由拒绝，朝臣意见分歧，申包胥跪求无效"
+      },
+      {
+        "name": "驿馆悲泣",
+        "emotion": 8,
+        "rhythm": "慢",
+        "ratio": 20,
+        "field": "第二至三场",
+        "summary": "申包胥在馆驿痛哭三日，水米不进，朝臣甲、乙等被感动，商议劝王发兵"
+      },
+      {
+        "name": "秦庭痛哭",
+        "emotion": 9,
+        "rhythm": "慢",
+        "ratio": 20,
+        "field": "第四场",
+        "summary": "申包胥在秦庭痛哭七日七夜，水浆不入，唱反二黄抒发悲愤，太监被感动"
+      },
+      {
+        "name": "宫宴劝谏",
+        "emotion": 6,
+        "rhythm": "中",
+        "ratio": 20,
+        "field": "第五场前半",
+        "summary": "秦后与妃子设宴，闻哭声问明缘由，劝秦哀公发兵，秦哀公起初拒绝，后经众人劝说应允"
+      },
+      {
+        "name": "发兵救楚",
+        "emotion": 5,
+        "rhythm": "中",
+        "ratio": 15,
+        "field": "第五场后半",
+        "summary": "秦哀公赋《无衣》诗，封申包胥官职，命子蒲、子虎挂帅救楚，申包胥感激拜谢"
+      }
+    ]
+  },
+  "大劈棺": {
+    "meta": {
+      "era": "战国",
+      "location": "南华堂",
+      "hangdang": "六外；八贴；七小；五丑；四旦",
+      "shengqiang": "二黄；西皮；反调；平板",
+      "banshi": "二流；平板；摇板；导板；散板；反二流",
+      "isZhezixi": "是",
+      "quanben": "蝴蝶梦（又名南华堂）"
+    },
+    "segments": [
+      {
+        "name": "归家述坟",
+        "emotion": 4,
+        "rhythm": "慢",
+        "ratio": 20,
+        "field": "不分场",
+        "summary": "庄周归家，向田氏讲述贾氏扇坟之事，田氏表示自己会守节，庄周心生试探之意"
+      },
+      {
+        "name": "假死试探",
+        "emotion": 6,
+        "rhythm": "中",
+        "ratio": 15,
+        "field": "不分场",
+        "summary": "庄周假装病死，田氏悲痛，命小二买棺木和童男童女"
+      },
+      {
+        "name": "度活童男",
+        "emotion": 3,
+        "rhythm": "慢",
+        "ratio": 15,
+        "field": "不分场",
+        "summary": "庄周施法度活童男，并变作楚国王孙前往吊丧"
+      },
+      {
+        "name": "诗挑成亲",
+        "emotion": 7,
+        "rhythm": "中",
+        "ratio": 25,
+        "field": "不分场",
+        "summary": "王孙借吊丧之名，以诗相挑，田氏动心，答应改嫁并拜堂成亲"
+      },
+      {
+        "name": "劈棺取脑",
+        "emotion": 9,
+        "rhythm": "快",
+        "ratio": 15,
+        "field": "不分场",
+        "summary": "王孙假称心痛需亲人脑髓，田氏为救新欢持斧劈棺取庄周脑髓"
+      },
+      {
+        "name": "真相责问",
+        "emotion": 10,
+        "rhythm": "快",
+        "ratio": 10,
+        "field": "不分场",
+        "summary": "庄周从棺中起，责问田氏劈棺、穿红、待客等事，田氏羞愧自缢"
+      }
+    ]
+  },
+  "焚绵山": {
+    "meta": {
+      "era": "春秋时代",
+      "location": "绵山",
+      "hangdang": "一末；三生；九夫；十杂；六外",
+      "shengqiang": "西皮",
+      "banshi": "慢板；导板",
+      "isZhezixi": "是",
+      "quanben": ""
+    },
+    "segments": [
+      {
+        "name": "独坐思往",
+        "emotion": 4,
+        "rhythm": "慢",
+        "ratio": 15,
+        "field": "不分场",
+        "summary": "介子推独坐草堂，回忆保重耳流亡十九年及黄河争功之事，表达对朝政的失望和隐居之志"
+      },
+      {
+        "name": "解张劝赏",
+        "emotion": 6,
+        "rhythm": "中",
+        "ratio": 20,
+        "field": "不分场",
+        "summary": "邻居解张来访，劝介子推回朝请赏，介子推以‘朽木不可雕’拒绝，双方争执后解张离去"
+      },
+      {
+        "name": "母子商议",
+        "emotion": 5,
+        "rhythm": "中",
+        "ratio": 15,
+        "field": "不分场",
+        "summary": "介母询问后劝子回朝，介子推以古忠良无下场为由拒绝，决定携母隐居绵山"
+      },
+      {
+        "name": "辞家入山",
+        "emotion": 4,
+        "rhythm": "慢",
+        "ratio": 10,
+        "field": "不分场",
+        "summary": "介子推与母拜别祖先，离开家园前往绵山"
+      },
+      {
+        "name": "文公访贤",
+        "emotion": 5,
+        "rhythm": "中",
+        "ratio": 10,
+        "field": "不分场",
+        "summary": "晋文公得知介子推下落，决定亲自带兵前往绵山寻访"
+      },
+      {
+        "name": "绵山避君",
+        "emotion": 7,
+        "rhythm": "中",
+        "ratio": 15,
+        "field": "不分场",
+        "summary": "介子推与母在绵山躲避，见重耳围山，发誓宁死不出山"
+      },
+      {
+        "name": "火烧绵山",
+        "emotion": 10,
+        "rhythm": "快",
+        "ratio": 10,
+        "field": "不分场",
+        "summary": "晋文公采纳魏犨建议火烧绵山，介子推坚守誓言，母子被烧死"
+      },
+      {
+        "name": "文公悲祭",
+        "emotion": 8,
+        "rhythm": "慢",
+        "ratio": 5,
+        "field": "不分场",
+        "summary": "晋文公见介子推母子被烧死，悲痛欲绝，拔剑欲殉，被劝止，遂改绵山为介山，定寒食节"
+      }
+    ]
+  },
+  "搜孤救孤": {
+    "meta": {
+      "era": "春秋",
+      "location": "晋国",
+      "hangdang": "一末；六外；八贴；十杂",
+      "shengqiang": "二黄；西皮",
+      "banshi": "摇板；慢板；一字板；二流",
+      "isZhezixi": "是",
+      "quanben": "八义图(又名赵氏孤儿)"
+    },
+    "segments": [
+      {
+        "name": "定计救孤",
+        "emotion": 6,
+        "rhythm": "中",
+        "ratio": 15,
+        "field": "第一场",
+        "summary": "公孙杵臼与程婴商议，决定由公孙舍命、程婴舍子以救赵氏孤儿"
+      },
+      {
+        "name": "夫妻争执",
+        "emotion": 8,
+        "rhythm": "中",
+        "ratio": 25,
+        "field": "第二场",
+        "summary": "程婴回家与妻商议舍子，程妻坚决不允，二人激烈争吵"
+      },
+      {
+        "name": "公孙劝妻",
+        "emotion": 7,
+        "rhythm": "中",
+        "ratio": 20,
+        "field": "第二场",
+        "summary": "公孙杵臼前来劝说程妻，最终程妻含泪同意舍子"
+      },
+      {
+        "name": "公堂出首",
+        "emotion": 9,
+        "rhythm": "快",
+        "ratio": 25,
+        "field": "第三场",
+        "summary": "程婴向屠岸贾告发公孙杵臼藏孤，屠岸贾拷打公孙并搜出婴儿"
+      },
+      {
+        "name": "法场诀别",
+        "emotion": 10,
+        "rhythm": "快",
+        "ratio": 15,
+        "field": "第四场",
+        "summary": "公孙杵臼与程婴在法场诀别，公孙被斩，程婴以己子换得孤儿并获屠岸贾信任"
+      }
+    ]
+  },
+  "宇宙锋": {
+    "meta": {
+      "era": "秦二世",
+      "location": "赵相府；金殿",
+      "hangdang": "四旦；九夫；二净；七小；五丑",
+      "shengqiang": "西皮；二黄；反二黄",
+      "banshi": "摇板；散板；夹板；反二流",
+      "isZhezixi": "否",
+      "quanben": ""
+    },
+    "segments": [
+      {
+        "name": "修本辩冤",
+        "emotion": 3,
+        "rhythm": "慢",
+        "ratio": 15,
+        "field": "第一场",
+        "summary": "赵高唤女询问是否叫赵忠丈夫，赵艳容否认，赵高为其修本辩冤"
+      },
+      {
+        "name": "二世纳妃",
+        "emotion": 5,
+        "rhythm": "中",
+        "ratio": 20,
+        "field": "第一场",
+        "summary": "秦二世夜访赵府，见赵艳容貌美，欲纳为妃，赵高欣然应允"
+      },
+      {
+        "name": "拒婚争执",
+        "emotion": 8,
+        "rhythm": "快",
+        "ratio": 15,
+        "field": "第一场",
+        "summary": "赵艳容得知父亲要将自己送入宫中，坚决不从，与赵高激烈争执"
+      },
+      {
+        "name": "装疯智斗",
+        "emotion": 9,
+        "rhythm": "快",
+        "ratio": 25,
+        "field": "第一场",
+        "summary": "在哑乳娘暗示下，赵艳容装疯，打乱青丝、损花容、脱素鞋、扯破衣衫，以疯言疯语戏弄赵高"
+      },
+      {
+        "name": "金殿装疯",
+        "emotion": 8,
+        "rhythm": "快",
+        "ratio": 25,
+        "field": "第二场",
+        "summary": "赵艳容被带上金殿，继续装疯，戏弄秦二世，最终保全名节，赵高被罚俸"
+      }
+    ]
+  },
+  "未央宫": {
+    "meta": {
+      "era": "汉初",
+      "location": "咸阳；云梦；未央宫",
+      "hangdang": "一末；二净；三生；四旦；五丑；六外；七小；八贴；九夫；十杂",
+      "shengqiang": "二黄；西皮",
+      "banshi": "慢板；二流；倒板；摇板；散板；一字板；快板；导板；回笼",
+      "isZhezixi": "否",
+      "quanben": ""
+    },
+    "segments": [
+      {
+        "name": "陈平定计",
+        "emotion": 4,
+        "rhythm": "中",
+        "ratio": 8,
+        "field": "第一至二场",
+        "summary": "陈平上朝，刘邦因韩信拥兵自重而忧虑，陈平献计伪游云梦以擒韩信"
+      },
+      {
+        "name": "樊哙督兵",
+        "emotion": 3,
+        "rhythm": "中",
+        "ratio": 5,
+        "field": "第三场",
+        "summary": "樊哙在教场督兵，接驾后率兵出发云梦"
+      },
+      {
+        "name": "蒯彻劝谏",
+        "emotion": 6,
+        "rhythm": "中",
+        "ratio": 12,
+        "field": "第四至五场",
+        "summary": "韩信得知刘邦驾游云梦，蒯彻劝其勿接驾，韩信不听，蒯彻被赶出"
+      },
+      {
+        "name": "杀钟离昧",
+        "emotion": 7,
+        "rhythm": "快",
+        "ratio": 8,
+        "field": "第六场",
+        "summary": "韩信为释主疑，逼钟离昧自刎，内心痛苦"
+      },
+      {
+        "name": "云梦被擒",
+        "emotion": 5,
+        "rhythm": "中",
+        "ratio": 10,
+        "field": "第七至十场",
+        "summary": "刘邦率众至云梦，韩信接驾即被捆绑囚禁"
+      },
+      {
+        "name": "鲍英行刺",
+        "emotion": 6,
+        "rhythm": "快",
+        "ratio": 8,
+        "field": "第十一至十二场",
+        "summary": "鲍英为报韩信之恩，行刺刘邦未成被斩"
+      },
+      {
+        "name": "蒯彻悲愤",
+        "emotion": 8,
+        "rhythm": "慢",
+        "ratio": 5,
+        "field": "第十三场",
+        "summary": "蒯彻得知韩信被擒，悲愤交加，痛骂刘邦、萧何、陈平"
+      },
+      {
+        "name": "金殿辩罪",
+        "emotion": 7,
+        "rhythm": "中",
+        "ratio": 12,
+        "field": "第十四场",
+        "summary": "韩信被押上殿，刘邦列三罪，韩信辩解，田肯保奏，韩信被削王改封侯"
+      },
+      {
+        "name": "谢公著告密",
+        "emotion": 4,
+        "rhythm": "中",
+        "ratio": 5,
+        "field": "第十五场",
+        "summary": "谢公著因私通使女被责，伪造书信告韩信谋反，萧何带信进宫"
+      },
+      {
+        "name": "吕后定计",
+        "emotion": 5,
+        "rhythm": "中",
+        "ratio": 5,
+        "field": "第十六场前半",
+        "summary": "吕后与萧何密议除韩信，萧何献计用黄纱红毡破解免死承诺"
+      },
+      {
+        "name": "未央宫辩冤",
+        "emotion": 9,
+        "rhythm": "快",
+        "ratio": 10,
+        "field": "第十六场后半",
+        "summary": "韩信被宣进宫，吕后与萧何诬其谋反，韩信辩冤无果，被押赴刑场"
+      },
+      {
+        "name": "韩信叹悔",
+        "emotion": 10,
+        "rhythm": "慢",
+        "ratio": 12,
+        "field": "第十七场",
+        "summary": "韩信在刑场回顾一生功绩，悔不听蒯彻之言，最终被斩"
+      }
+    ]
+  },
+  "昭君出塞": {
+    "meta": {
+      "era": "汉代",
+      "location": "雁门关；黑水江",
+      "hangdang": "四旦；五丑",
+      "shengqiang": "吹腔",
+      "banshi": "",
+      "isZhezixi": "否",
+      "quanben": ""
+    },
+    "segments": [
+      {
+        "name": "王龙开场",
+        "emotion": 2,
+        "rhythm": "慢",
+        "ratio": 5,
+        "field": "不分场",
+        "summary": "王龙上场念定场诗和引子，吩咐人马齐备，请娘娘"
+      },
+      {
+        "name": "昭君独怨",
+        "emotion": 7,
+        "rhythm": "慢",
+        "ratio": 20,
+        "field": "不分场",
+        "summary": "昭君唱吹腔表达对毛延寿的怨恨和对汉刘王的思念，悲伤凄凉"
+      },
+      {
+        "name": "辞别启程",
+        "emotion": 8,
+        "rhythm": "中",
+        "ratio": 30,
+        "field": "不分场",
+        "summary": "昭君与王龙对话，唱吹腔表达离愁别恨，恨奸贼，见番兵，路途艰辛"
+      },
+      {
+        "name": "马夫插科",
+        "emotion": 3,
+        "rhythm": "快",
+        "ratio": 10,
+        "field": "不分场",
+        "summary": "马夫与王龙插科打诨，备马装鞍，王龙试马跌下"
+      },
+      {
+        "name": "雁门关思乡",
+        "emotion": 9,
+        "rhythm": "慢",
+        "ratio": 20,
+        "field": "不分场",
+        "summary": "昭君问雁门关，托鸿雁传书，唱吹腔表达思乡、怨愤、不愿和番"
+      },
+      {
+        "name": "番兵迎亲",
+        "emotion": 8,
+        "rhythm": "中",
+        "ratio": 15,
+        "field": "不分场",
+        "summary": "番兵上场，昭君唱吹腔描述番兵形象，王龙传旨，昭君感叹和番命运，齐下"
+      }
+    ]
+  },
+  "访韩信": {
+    "meta": {
+      "era": "秦末",
+      "location": "咸阳",
+      "hangdang": "一末；七小",
+      "shengqiang": "西皮",
+      "banshi": "慢板；摇板",
+      "isZhezixi": "否",
+      "quanben": ""
+    },
+    "segments": [
+      {
+        "name": "张良访贤启程",
+        "emotion": 4,
+        "rhythm": "慢",
+        "ratio": 15,
+        "field": "不分场",
+        "summary": "张良奉主命私出咸阳，为访韩信弃楚归汉，身背宝剑前往楚营"
+      },
+      {
+        "name": "韩信月夜自叹",
+        "emotion": 5,
+        "rhythm": "慢",
+        "ratio": 15,
+        "field": "不分场",
+        "summary": "韩信在月下独坐，自叹怀才不遇，不被项羽重用"
+      },
+      {
+        "name": "张良叩门相见",
+        "emotion": 3,
+        "rhythm": "中",
+        "ratio": 15,
+        "field": "不分场",
+        "summary": "张良深夜拜访韩信，以卖剑为名试探，二人相互寒暄"
+      },
+      {
+        "name": "论剑试探劝归",
+        "emotion": 6,
+        "rhythm": "中",
+        "ratio": 30,
+        "field": "不分场",
+        "summary": "张良以天子、宰相、元戎三剑为引，劝说韩信弃楚投汉，并赠元戎剑为信"
+      },
+      {
+        "name": "韩信决意投汉",
+        "emotion": 7,
+        "rhythm": "快",
+        "ratio": 25,
+        "field": "不分场",
+        "summary": "张良表明真实身份，韩信大喜，决定即日离楚投汉，张良叮嘱从陈仓小道前往"
+      }
+    ]
+  },
+  "逼休": {
+    "meta": {
+      "era": "汉代",
+      "location": "会稽",
+      "hangdang": "六外；八贴",
+      "shengqiang": "西皮",
+      "banshi": "慢板；摇板；一字板",
+      "isZhezixi": "是",
+      "quanben": "烂柯山（又称朱买臣休妻）"
+    },
+    "segments": [
+      {
+        "name": "开场独怨",
+        "emotion": 5,
+        "rhythm": "慢",
+        "ratio": 10,
+        "field": "不分场",
+        "summary": "崔氏独坐草堂，自怨自艾，表达对贫困生活的不满，并盼朱买臣冻饿而死"
+      },
+      {
+        "name": "雪中归家",
+        "emotion": 6,
+        "rhythm": "中",
+        "ratio": 15,
+        "field": "不分场",
+        "summary": "朱买臣砍柴归来，因柴被赊欠而担心妻子吵闹，夫妻见面即起争执"
+      },
+      {
+        "name": "争吵升级",
+        "emotion": 7,
+        "rhythm": "中",
+        "ratio": 30,
+        "field": "不分场",
+        "summary": "崔氏嫌贫辱骂，朱买臣以古人自勉并劝妻忍耐，崔氏坚决要改嫁"
+      },
+      {
+        "name": "逼写休书",
+        "emotion": 10,
+        "rhythm": "快",
+        "ratio": 25,
+        "field": "不分场",
+        "summary": "崔氏以死相逼要休书，朱买臣含泪写下，夫妻决裂"
+      },
+      {
+        "name": "被赶出门",
+        "emotion": 9,
+        "rhythm": "快",
+        "ratio": 20,
+        "field": "不分场",
+        "summary": "崔氏得休书后欣喜若狂，设计将朱买臣赶出家门，朱在雪中离去"
+      }
+    ]
+  }
+}
