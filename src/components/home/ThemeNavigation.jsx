@@ -19,19 +19,15 @@ export function ThemeNavigation() {
           </h2>
         </div>
         <p className="max-w-lg text-sm leading-relaxed text-stone-500">
-          下列主题为后续独立页面 / 可视化模块预留入口，可在路由层逐项接通。
+          已接通的主题将进入独立页面；其余主题仍锚定至首页对应区块。
         </p>
       </header>
 
       <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4 lg:gap-5">
         {themes.map((t, i) => (
-          <li
-            key={t.id}
-            {...(t.hash !== 'theme-plot-content' ? { id: t.hash } : {})}
-            className="scroll-mt-28"
-          >
+          <li key={t.id} id={t.hash} className="scroll-mt-28">
             <Link
-              to={{ pathname: '/', hash: t.hash }}
+              to={t.path ?? { pathname: '/', hash: t.hash }}
               className="group flex h-full flex-col rounded-2xl border border-white/[0.07] bg-gradient-to-b from-[#141018]/95 to-black/90 p-6 shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] transition hover:border-gold-500/35 hover:shadow-[0_20px_50px_rgba(0,0,0,0.45)]"
             >
               <span className="font-mono text-[10px] text-red-400/90">

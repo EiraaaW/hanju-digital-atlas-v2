@@ -1,8 +1,10 @@
+import { Link } from 'react-router-dom'
+import hangdangByDynasty from '@/data/hangdang_by_dynasty.json'
 import projectHome from '@/data/project-home.json'
 
-function StatCard({ label, value, suffix }) {
-  return (
-    <div className="relative overflow-hidden rounded-2xl border border-gold-500/15 bg-[linear-gradient(145deg,rgba(24,6,10,0.92)_0%,rgba(7,8,12,0.96)_100%)] p-6 shadow-panel transition hover:border-gold-400/30">
+function StatCard({ label, value, suffix, to }) {
+  const body = (
+    <>
       <div
         className="pointer-events-none absolute -right-6 -top-6 h-24 w-24 rounded-full bg-red-900/25 blur-2xl"
         aria-hidden
@@ -18,8 +20,24 @@ function StatCard({ label, value, suffix }) {
           <span className="text-sm font-sans text-stone-500">{suffix}</span>
         ) : null}
       </p>
-    </div>
+    </>
   )
+
+  const shell =
+    'relative overflow-hidden rounded-2xl border border-gold-500/15 bg-[linear-gradient(145deg,rgba(24,6,10,0.92)_0%,rgba(7,8,12,0.96)_100%)] p-6 shadow-panel transition hover:border-gold-400/30'
+
+  if (to) {
+    return (
+      <Link
+        to={to}
+        className={`${shell} block outline-none ring-gold-500/0 transition hover:ring-2 focus-visible:ring-gold-500/40`}
+      >
+        {body}
+      </Link>
+    )
+  }
+
+  return <div className={shell}>{body}</div>
 }
 
 export function DataOverview() {
@@ -28,7 +46,12 @@ export function DataOverview() {
   const items = [
     { label: '剧目总数', value: stats.plays, suffix: '部' },
     { label: '人物数量', value: stats.characters, suffix: '位' },
-    { label: '行当种类', value: stats.roleTypes, suffix: '类' },
+    {
+      label: '行当种类',
+      value: hangdangByDynasty.hangdang.length,
+      suffix: '类',
+      to: '/data/hangdang',
+    },
     { label: '唱腔数量', value: stats.singingStyles, suffix: '种' },
   ]
 

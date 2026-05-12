@@ -2,7 +2,6 @@
   "stats": {
     "plays": 128,
     "characters": 342,
-    "roleTypes": 4,
     "singingStyles": 12
   },
   "intro": {
@@ -16,19 +15,22 @@
       "id": "repertoire",
       "title": "剧目整体概览",
       "description": "剧目目录、版本谱系与场次结构的宏观鸟瞰。",
-      "hash": "theme-repertoire"
+      "hash": "theme-repertoire",
+      "path": "/themes/repertoire"
     },
     {
       "id": "plot-emotion",
       "title": "情节与情感",
       "description": "情节单元标注、冲突链条与情感曲线可视化。",
-      "hash": "theme-plot-content"
+      "hash": "theme-plot-content",
+      "path": "/themes/plot-emotion"
     },
     {
       "id": "characters",
       "title": "角色人物",
       "description": "人物实体、关系网络与行当属性的图谱探索。",
-      "hash": "theme-characters"
+      "hash": "theme-characters",
+      "path": "/themes/characters"
     },
     {
       "id": "performance",
