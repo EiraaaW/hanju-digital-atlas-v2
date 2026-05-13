@@ -96,7 +96,7 @@ export function PerformancePage() {
         >
           <div>
             <h3 id="perf-changfa-bar-title" className={blockTitleClass}>
-              板式出现频次
+              唱法出现频次
             </h3>
             <p className="mt-1.5 text-xs leading-relaxed text-stone-500 sm:text-sm">
               全样本中各板式（念、诗、引等）的累计出现次数；数据来自{' '}
@@ -118,7 +118,7 @@ export function PerformancePage() {
           <div className="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
             <div className="min-w-0 shrink-0">
               <h3 id="perf-changfa-race-title" className={blockTitleClass}>
-                板式与朝代对比
+                唱法与朝代对比
               </h3>
               <h4 className="mt-2 text-sm font-medium text-stone-400">
                 条形竞速

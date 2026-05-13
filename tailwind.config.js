@@ -16,6 +16,7 @@ export default {
       },
       fontFamily: {
         display: ['"Noto Serif SC"', 'SimSun', 'serif'],
+        brush: ['"Ma Shan Zheng"', '"Noto Serif SC"', 'cursive'],
         sans: ['"Noto Sans SC"', 'system-ui', 'sans-serif'],
       },
       boxShadow: {

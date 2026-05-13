@@ -44,7 +44,7 @@ export function DataOverview() {
   const { stats } = projectHome
 
   const items = [
-    { label: '剧目总数', value: stats.plays, suffix: '部' },
+    { label: '剧目总数', value: stats.plays, suffix: '部', to: '/data/plays' },
     { label: '人物数量', value: stats.characters, suffix: '位' },
     {
       label: '行当种类',
