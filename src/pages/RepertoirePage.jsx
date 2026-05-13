@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom'
 import EraBar from '@/components/EraBar'
 import EraThemeHeatmap from '@/components/EraThemeHeatmap'
-import ThemeBarRace from '@/components/ThemeBarRace'
-import ThemeDumbbell from '@/components/ThemeDumbbell'
+import ThemeBarRacePlayCount from '@/components/ThemeBarRacePlayCount'
+import ThemeDumbbellPlayCount from '@/components/ThemeDumbbellPlayCount'
 import ThemePie from '@/components/ThemePie'
 import eraDistribution from '@/data/era_distribution.json'
 import eraThemeHeatmap from '@/data/era_theme_heatmap.json'
@@ -33,7 +33,7 @@ export function RepertoirePage() {
             </h1>
           </div>
           <p className="max-w-xl text-sm leading-relaxed text-stone-500">
-            环形图汇总主题类型频次；柱状图按历史朝代统计样本剧目数量；条形竞速与哑铃图按商周、秦汉切片对比主题占比。
+            环形图汇总主题类型频次；柱状图按历史朝代统计样本剧目数量；条形竞速与哑铃图以各朝样本剧目部数为分母，对比主题在商周、秦汉的占比。
           </p>
         </header>
 
@@ -83,12 +83,12 @@ export function RepertoirePage() {
               <code className="rounded bg-white/[0.06] px-1 py-0.5 text-[12px] text-gold-200/90">
                 era_theme_heatmap.json
               </code>
-              ：条形图在商周与秦汉之间自动轮播，哑铃图并列两段占比；热力图展示各历史朝代与叙事主题的交叉强度及代表剧目。
+              。条形竞速与哑铃图以商周 55、秦汉 44 部样本剧目为分母计算主题占比；热力图展示各历史朝代与叙事主题的交叉强度及代表剧目。
             </p>
           </header>
           <div className="grid gap-10 lg:grid-cols-2 lg:gap-8 lg:items-start">
-            <ThemeBarRace data={themeByDynasty} />
-            <ThemeDumbbell data={themeByDynasty} />
+            <ThemeBarRacePlayCount data={themeByDynasty} />
+            <ThemeDumbbellPlayCount data={themeByDynasty} />
           </div>
           <div className="mt-12 overflow-x-auto pb-2">
             <EraThemeHeatmap data={eraThemeHeatmap} />
