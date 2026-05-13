@@ -20,7 +20,7 @@ export default function EraBar({ data }) {
                 textStyle: { color: '#e8dcc8', fontSize: 12 },
                 formatter: '{b}: {c} 部'
             },
-            grid: { top: 20, right: 40, bottom: 40, left: 40 },
+            grid: { top: 32, right: 36, bottom: 44, left: 72, containLabel: true },
             xAxis: {
                 type: 'category',
                 data: data.map(d => d.name),
@@ -31,7 +31,10 @@ export default function EraBar({ data }) {
             yAxis: {
                 type: 'value',
                 name: '剧目数量',
-                nameTextStyle: { color: '#8b7d6b', fontSize: 10 },
+                nameLocation: 'middle',
+                nameGap: 52,
+                nameRotate: 90,
+                nameTextStyle: { color: '#8b7d6b', fontSize: 11, align: 'center' },
                 axisLabel: { color: '#8b7d6b', fontSize: 10 },
                 splitLine: { lineStyle: { color: 'rgba(255,255,255,0.04)' } }
             },
@@ -43,7 +46,10 @@ export default function EraBar({ data }) {
             }]
         }, true);
 
-        return () => chartInstance.current?.dispose();
+        return () => {
+            chartInstance.current?.dispose();
+            chartInstance.current = null;
+        };
     }, [data]);
 
     return (

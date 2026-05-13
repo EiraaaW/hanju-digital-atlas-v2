@@ -1,0 +1,654 @@
+{
+  "nodes": [
+    {
+      "name": "一末"
+    },
+    {
+      "name": "七小"
+    },
+    {
+      "name": "三生"
+    },
+    {
+      "name": "主题:复仇"
+    },
+    {
+      "name": "主题:孝义"
+    },
+    {
+      "name": "主题:征战"
+    },
+    {
+      "name": "主题:情爱"
+    },
+    {
+      "name": "主题:权斗"
+    },
+    {
+      "name": "主题:求贤"
+    },
+    {
+      "name": "主题:神魔"
+    },
+    {
+      "name": "主题:讽世"
+    },
+    {
+      "name": "九夫"
+    },
+    {
+      "name": "二净"
+    },
+    {
+      "name": "五丑"
+    },
+    {
+      "name": "八贴"
+    },
+    {
+      "name": "六外"
+    },
+    {
+      "name": "十杂"
+    },
+    {
+      "name": "四旦"
+    },
+    {
+      "name": "声腔:二黄"
+    },
+    {
+      "name": "声腔:反二黄"
+    },
+    {
+      "name": "声腔:反调"
+    },
+    {
+      "name": "声腔:吹腔"
+    },
+    {
+      "name": "声腔:四平"
+    },
+    {
+      "name": "声腔:四平调"
+    },
+    {
+      "name": "声腔:平板"
+    },
+    {
+      "name": "声腔:西皮"
+    }
+  ],
+  "links": [
+    {
+      "source": "声腔:二黄",
+      "target": "主题:权斗",
+      "value": 30
+    },
+    {
+      "source": "声腔:二黄",
+      "target": "主题:征战",
+      "value": 10
+    },
+    {
+      "source": "声腔:二黄",
+      "target": "主题:复仇",
+      "value": 10
+    },
+    {
+      "source": "声腔:西皮",
+      "target": "主题:权斗",
+      "value": 60
+    },
+    {
+      "source": "声腔:西皮",
+      "target": "主题:征战",
+      "value": 20
+    },
+    {
+      "source": "声腔:西皮",
+      "target": "主题:复仇",
+      "value": 22
+    },
+    {
+      "source": "主题:权斗",
+      "target": "一末",
+      "value": 44
+    },
+    {
+      "source": "主题:权斗",
+      "target": "三生",
+      "value": 45
+    },
+    {
+      "source": "主题:权斗",
+      "target": "四旦",
+      "value": 36
+    },
+    {
+      "source": "主题:权斗",
+      "target": "五丑",
+      "value": 44
+    },
+    {
+      "source": "主题:权斗",
+      "target": "七小",
+      "value": 44
+    },
+    {
+      "source": "主题:权斗",
+      "target": "八贴",
+      "value": 23
+    },
+    {
+      "source": "主题:权斗",
+      "target": "十杂",
+      "value": 46
+    },
+    {
+      "source": "主题:征战",
+      "target": "一末",
+      "value": 18
+    },
+    {
+      "source": "主题:征战",
+      "target": "三生",
+      "value": 17
+    },
+    {
+      "source": "主题:征战",
+      "target": "四旦",
+      "value": 13
+    },
+    {
+      "source": "主题:征战",
+      "target": "五丑",
+      "value": 17
+    },
+    {
+      "source": "主题:征战",
+      "target": "七小",
+      "value": 19
+    },
+    {
+      "source": "主题:征战",
+      "target": "八贴",
+      "value": 10
+    },
+    {
+      "source": "主题:征战",
+      "target": "十杂",
+      "value": 23
+    },
+    {
+      "source": "主题:复仇",
+      "target": "一末",
+      "value": 19
+    },
+    {
+      "source": "主题:复仇",
+      "target": "三生",
+      "value": 17
+    },
+    {
+      "source": "主题:复仇",
+      "target": "四旦",
+      "value": 16
+    },
+    {
+      "source": "主题:复仇",
+      "target": "五丑",
+      "value": 17
+    },
+    {
+      "source": "主题:复仇",
+      "target": "七小",
+      "value": 15
+    },
+    {
+      "source": "主题:复仇",
+      "target": "八贴",
+      "value": 9
+    },
+    {
+      "source": "主题:复仇",
+      "target": "十杂",
+      "value": 19
+    },
+    {
+      "source": "主题:权斗",
+      "target": "二净",
+      "value": 42
+    },
+    {
+      "source": "主题:权斗",
+      "target": "六外",
+      "value": 28
+    },
+    {
+      "source": "主题:征战",
+      "target": "二净",
+      "value": 17
+    },
+    {
+      "source": "主题:征战",
+      "target": "六外",
+      "value": 12
+    },
+    {
+      "source": "声腔:西皮",
+      "target": "主题:孝义",
+      "value": 36
+    },
+    {
+      "source": "主题:孝义",
+      "target": "一末",
+      "value": 31
+    },
+    {
+      "source": "主题:孝义",
+      "target": "二净",
+      "value": 17
+    },
+    {
+      "source": "主题:孝义",
+      "target": "五丑",
+      "value": 28
+    },
+    {
+      "source": "主题:孝义",
+      "target": "三生",
+      "value": 25
+    },
+    {
+      "source": "主题:权斗",
+      "target": "九夫",
+      "value": 17
+    },
+    {
+      "source": "主题:孝义",
+      "target": "十杂",
+      "value": 22
+    },
+    {
+      "source": "主题:孝义",
+      "target": "七小",
+      "value": 22
+    },
+    {
+      "source": "主题:孝义",
+      "target": "九夫",
+      "value": 12
+    },
+    {
+      "source": "主题:孝义",
+      "target": "四旦",
+      "value": 23
+    },
+    {
+      "source": "主题:复仇",
+      "target": "九夫",
+      "value": 10
+    },
+    {
+      "source": "主题:征战",
+      "target": "九夫",
+      "value": 7
+    },
+    {
+      "source": "主题:复仇",
+      "target": "六外",
+      "value": 11
+    },
+    {
+      "source": "主题:复仇",
+      "target": "二净",
+      "value": 12
+    },
+    {
+      "source": "声腔:西皮",
+      "target": "主题:讽世",
+      "value": 10
+    },
+    {
+      "source": "主题:讽世",
+      "target": "八贴",
+      "value": 6
+    },
+    {
+      "source": "主题:讽世",
+      "target": "一末",
+      "value": 5
+    },
+    {
+      "source": "主题:讽世",
+      "target": "五丑",
+      "value": 7
+    },
+    {
+      "source": "主题:孝义",
+      "target": "八贴",
+      "value": 14
+    },
+    {
+      "source": "声腔:二黄",
+      "target": "主题:孝义",
+      "value": 21
+    },
+    {
+      "source": "声腔:二黄",
+      "target": "主题:情爱",
+      "value": 4
+    },
+    {
+      "source": "声腔:二黄",
+      "target": "主题:讽世",
+      "value": 6
+    },
+    {
+      "source": "声腔:西皮",
+      "target": "主题:情爱",
+      "value": 4
+    },
+    {
+      "source": "声腔:反调",
+      "target": "主题:孝义",
+      "value": 1
+    },
+    {
+      "source": "声腔:反调",
+      "target": "主题:情爱",
+      "value": 1
+    },
+    {
+      "source": "声腔:反调",
+      "target": "主题:讽世",
+      "value": 2
+    },
+    {
+      "source": "声腔:平板",
+      "target": "主题:孝义",
+      "value": 3
+    },
+    {
+      "source": "声腔:平板",
+      "target": "主题:情爱",
+      "value": 1
+    },
+    {
+      "source": "声腔:平板",
+      "target": "主题:讽世",
+      "value": 3
+    },
+    {
+      "source": "主题:孝义",
+      "target": "六外",
+      "value": 18
+    },
+    {
+      "source": "主题:情爱",
+      "target": "六外",
+      "value": 2
+    },
+    {
+      "source": "主题:情爱",
+      "target": "八贴",
+      "value": 4
+    },
+    {
+      "source": "主题:情爱",
+      "target": "七小",
+      "value": 4
+    },
+    {
+      "source": "主题:情爱",
+      "target": "五丑",
+      "value": 2
+    },
+    {
+      "source": "主题:情爱",
+      "target": "四旦",
+      "value": 3
+    },
+    {
+      "source": "主题:讽世",
+      "target": "六外",
+      "value": 5
+    },
+    {
+      "source": "主题:讽世",
+      "target": "七小",
+      "value": 5
+    },
+    {
+      "source": "主题:讽世",
+      "target": "四旦",
+      "value": 3
+    },
+    {
+      "source": "主题:讽世",
+      "target": "二净",
+      "value": 5
+    },
+    {
+      "source": "主题:讽世",
+      "target": "十杂",
+      "value": 3
+    },
+    {
+      "source": "声腔:二黄",
+      "target": "主题:神魔",
+      "value": 6
+    },
+    {
+      "source": "声腔:西皮",
+      "target": "主题:神魔",
+      "value": 9
+    },
+    {
+      "source": "主题:神魔",
+      "target": "一末",
+      "value": 8
+    },
+    {
+      "source": "主题:神魔",
+      "target": "二净",
+      "value": 10
+    },
+    {
+      "source": "主题:神魔",
+      "target": "三生",
+      "value": 9
+    },
+    {
+      "source": "主题:神魔",
+      "target": "四旦",
+      "value": 6
+    },
+    {
+      "source": "主题:神魔",
+      "target": "五丑",
+      "value": 6
+    },
+    {
+      "source": "主题:神魔",
+      "target": "六外",
+      "value": 6
+    },
+    {
+      "source": "主题:神魔",
+      "target": "七小",
+      "value": 9
+    },
+    {
+      "source": "主题:神魔",
+      "target": "八贴",
+      "value": 5
+    },
+    {
+      "source": "主题:神魔",
+      "target": "九夫",
+      "value": 5
+    },
+    {
+      "source": "主题:神魔",
+      "target": "十杂",
+      "value": 8
+    },
+    {
+      "source": "声腔:西皮",
+      "target": "主题:求贤",
+      "value": 13
+    },
+    {
+      "source": "主题:求贤",
+      "target": "一末",
+      "value": 14
+    },
+    {
+      "source": "主题:求贤",
+      "target": "三生",
+      "value": 11
+    },
+    {
+      "source": "声腔:四平",
+      "target": "主题:孝义",
+      "value": 1
+    },
+    {
+      "source": "声腔:二黄",
+      "target": "主题:求贤",
+      "value": 6
+    },
+    {
+      "source": "主题:求贤",
+      "target": "二净",
+      "value": 8
+    },
+    {
+      "source": "主题:求贤",
+      "target": "十杂",
+      "value": 7
+    },
+    {
+      "source": "主题:求贤",
+      "target": "七小",
+      "value": 9
+    },
+    {
+      "source": "主题:求贤",
+      "target": "五丑",
+      "value": 6
+    },
+    {
+      "source": "主题:求贤",
+      "target": "九夫",
+      "value": 1
+    },
+    {
+      "source": "主题:求贤",
+      "target": "六外",
+      "value": 3
+    },
+    {
+      "source": "主题:讽世",
+      "target": "三生",
+      "value": 2
+    },
+    {
+      "source": "主题:讽世",
+      "target": "九夫",
+      "value": 4
+    },
+    {
+      "source": "主题:求贤",
+      "target": "八贴",
+      "value": 2
+    },
+    {
+      "source": "主题:情爱",
+      "target": "九夫",
+      "value": 1
+    },
+    {
+      "source": "声腔:反调",
+      "target": "主题:权斗",
+      "value": 1
+    },
+    {
+      "source": "声腔:反调",
+      "target": "主题:神魔",
+      "value": 1
+    },
+    {
+      "source": "声腔:反二黄",
+      "target": "主题:孝义",
+      "value": 2
+    },
+    {
+      "source": "声腔:反二黄",
+      "target": "主题:权斗",
+      "value": 2
+    },
+    {
+      "source": "主题:求贤",
+      "target": "四旦",
+      "value": 3
+    },
+    {
+      "source": "声腔:四平调",
+      "target": "主题:权斗",
+      "value": 2
+    },
+    {
+      "source": "声腔:四平调",
+      "target": "主题:孝义",
+      "value": 1
+    },
+    {
+      "source": "声腔:平板",
+      "target": "主题:求贤",
+      "value": 1
+    },
+    {
+      "source": "声腔:四平调",
+      "target": "主题:情爱",
+      "value": 1
+    },
+    {
+      "source": "声腔:反二黄",
+      "target": "主题:讽世",
+      "value": 1
+    },
+    {
+      "source": "主题:情爱",
+      "target": "一末",
+      "value": 1
+    },
+    {
+      "source": "声腔:吹腔",
+      "target": "主题:征战",
+      "value": 1
+    },
+    {
+      "source": "声腔:吹腔",
+      "target": "主题:权斗",
+      "value": 1
+    },
+    {
+      "source": "声腔:平板",
+      "target": "主题:权斗",
+      "value": 2
+    },
+    {
+      "source": "声腔:平板",
+      "target": "主题:复仇",
+      "value": 1
+    },
+    {
+      "source": "主题:情爱",
+      "target": "三生",
+      "value": 1
+    }
+  ]
+}

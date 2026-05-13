@@ -36,7 +36,8 @@
       "id": "performance",
       "title": "唱腔与表演",
       "description": "西皮、二黄等声腔标注与舞台指示的结构化呈现。",
-      "hash": "theme-performance"
+      "hash": "theme-performance",
+      "path": "/themes/performance"
     }
   ]
 }
