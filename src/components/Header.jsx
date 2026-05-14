@@ -5,7 +5,7 @@ const navItems = [
   { label: '简介', to: '/', hash: 'intro' },
   { label: '概览', to: '/', hash: 'overview' },
   { label: '主题', to: '/', hash: 'themes' },
-  { label: '可视化', to: '/', hash: 'viz' },
+  { label: '戏梦山河', to: '/', hash: 'viz' },
 ]
 
 export function Header() {

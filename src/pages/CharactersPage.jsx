@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
 import HangdangChord from '@/components/HangdangChord'
+import HanjuNetwork from '@/components/role_App.jsx'
 import hangdangChord from '@/data/hangdang_chord.json'
+import pacakg from '@/data/pacakg.json'
 
 export function CharactersPage() {
   return (
@@ -26,9 +28,17 @@ export function CharactersPage() {
             </h1>
           </div>
           <p className="max-w-xl text-sm leading-relaxed text-stone-500">
-            基于样本剧目中角色与行当的标注，以弦图形式呈现十大行当之间的共现强度；悬停可查看各行当下的代表角色（节选展示）。
+            基于样本剧目中角色与行当的标注：下方「戏缘浮生」依据全量元数据 CSV
+            构建人物共现网络；弦图则呈现十大行当之间的共现强度，悬停可查看各行当下的代表角色（节选展示）。
           </p>
         </header>
+
+        <section className="mb-12 space-y-4" aria-labelledby="characters-network-heading">
+          <h2 id="characters-network-heading" className="sr-only">
+            人物关系网络
+          </h2>
+          <HanjuNetwork appMeta={{ name: pacakg.name, version: pacakg.version }} />
+        </section>
 
         <div className="overflow-x-auto pb-4">
           <HangdangChord data={hangdangChord} />
